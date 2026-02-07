@@ -1,0 +1,33 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Positron Projects",
+  "description": "Open your Positron projects from anywhere using Ulauncher",
+  "developer_name": "",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "kw",
+      "type": "keyword",
+      "name": "Positron Projects",
+      "description": "Open your Positron projects",
+      "default_value": "pp"
+    },
+    {
+      "id": "projects_file_path",
+      "type": "input",
+      "name": "Projects File path",
+      "description": "The location of the projects file created by the Project Manager extension",
+      "default_value": "~/.config/Positron/User/globalStorage/alefragnani.project-manager/"
+    },
+    {
+      "id": "positron_executable_path",
+      "type": "input",
+      "name": "Positron executable path",
+      "description": "The path to the Positron executable",
+      "default_value": "positron"
+    }
+  ]
+}
