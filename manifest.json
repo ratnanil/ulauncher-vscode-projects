@@ -2,7 +2,7 @@
   "required_api_version": "^2.0.0",
   "name": "Positron Projects",
   "description": "Open your Positron projects from anywhere using Ulauncher",
-  "developer_name": "",
+  "developer_name": "ratnanil",
   "icon": "images/icon.png",
   "options": {
     "query_debounce": 0.1
